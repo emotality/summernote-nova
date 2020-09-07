@@ -1,0 +1,37 @@
+{
+    "name": "emotality/summernote-nova",
+    "description": "Summernote WYSIWYG editor for Laravel Nova",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "nova",
+        "summernote",
+        "wysiwyg"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/emotality/summernote-nova",
+    "authors": [
+        {
+            "name": "Jean-Pierre Fourie",
+            "homepage": "https://emotality.com",
+            "email": "jp@emotality.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Emotality\\Nova\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Emotality\\Nova\\SummernoteServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
