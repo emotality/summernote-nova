@@ -1,4 +1,4 @@
-# Summernote Nova
+# Summernote for Laravel Nova
 
 [![Packagist License](https://poser.pugx.org/emotality/summernote-nova/license.png)](http://choosealicense.com/licenses/mit/)
 [![Latest Stable Version](https://poser.pugx.org/emotality/summernote-nova/version.png)](https://packagist.org/packages/emotality/summernote-nova)
@@ -10,6 +10,21 @@
 
 1. `composer require emotality/summernote-nova`
 2. `php artisan vendor:publish --provider="Emotality\Nova\SummernoteServiceProvider"`
+
+---
+
+Laravel 5.5+ will use the auto-discovery function but for Laravel 5.4 and lower, you will need to include the service provider manually in `config/app.php`:
+
+```php
+'providers' => [
+    ...,
+    /*
+     * Package Service Providers...
+     */
+    Emotality\Nova\SummernoteServiceProvider::class,
+    ...,
+];
+```
 
 ## Usage
 
