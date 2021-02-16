@@ -1,10 +1,12 @@
-# Summernote for Laravel Nova
+# Summernote for Laravel Nova (archived)
 
 [![Packagist License](https://poser.pugx.org/emotality/summernote-nova/license.png)](http://choosealicense.com/licenses/mit/)
 [![Latest Stable Version](https://poser.pugx.org/emotality/summernote-nova/version.png)](https://packagist.org/packages/emotality/summernote-nova)
 [![Total Downloads](https://poser.pugx.org/emotality/summernote-nova/d/total.png)](https://packagist.org/packages/emotality/summernote-nova)
 
 [Summernote WYSIWYG editor](https://github.com/summernote/summernote) for [Laravel Nova](https://nova.laravel.com).
+
+## PLEASE NOTE: This repo has been archived and will not be updated!
 
 ## Installation
 
